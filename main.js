@@ -33,31 +33,4 @@ If the ball is entered as any non-boolean value, return "You've Ballsed Up!"
 //👉 Write the function your CodeWarriors will start with below here:
 
 export function fightKid(teachers, kids, lunchbox, ball) {
-        ball = ball || false;
-        if (teachers <= 0 || kids <= 0) {
-      return "Nominate fighter";
-    }
-    let pieCount = 0;
-    for ( let i=0; i < lunchbox.length; i++){
-       if (lunchbox[i] === "Pie" ) {
-        pieCount++;
-       }
-    }
-      let pieBoost = (pieCount * Math.PI) / kids
-       kids *= (pieBoost+1);
-        if (typeof ball !== "boolean") {
-            console.log(typeof ball);
-        return "You've ballsed up!"
-    }
-    if (ball === true) {
-        teachers *= 1.5;
-    }
-    if (teachers * 8 == kids) {
-      return "FIGHT FIGHT FIGHT";
-    }
-    if (teachers * 8 > kids) {
-      return "teachers";
-    } else {
-      return "kids";
-    }
 }
