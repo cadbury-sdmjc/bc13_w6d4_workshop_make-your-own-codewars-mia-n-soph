@@ -16,9 +16,9 @@ Each function will take in teachers, kids, a lunchbox array (which may or may no
          For every 'Pie' present in the Lunchbox; Kids will receive a boost.
          1 whole pie = πBoost
          If your lunchbox contains 1 pie; and you have 4 kids, each kid will recieve 1/4 of the πBoost value.
-⚽️Ball - If a ball is added, teachers receive a boost, as some kids will be distracted by ball.
+⚽️Ball - If a ball is added, teachers receive a boost, as some kids will be distracted by the ball.
          This means teachers can take on 50% more kids than prior.
-         The ball may or may not be present, this is indicated by a true boolean value.
+         The ball may or may not be present, the presence of the ball is indicated by a true boolean value.
 
 Your function will need to return the winners (either kids or teachers).
 
