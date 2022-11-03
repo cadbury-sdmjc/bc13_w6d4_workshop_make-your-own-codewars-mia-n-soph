@@ -33,4 +33,5 @@ If the ball is entered as any non-boolean value, return "You've Ballsed Up!"
 //👉 Write the function your CodeWarriors will start with below here:
 
 export function fightKid(teachers, kids, lunchbox, ball) {
+    
 }
